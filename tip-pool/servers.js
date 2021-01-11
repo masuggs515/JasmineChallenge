@@ -25,7 +25,7 @@ function submitServerInfo(evt) {
 }
 
 // Create table row element and pass to appendTd function with input value
-function updateServerTable() {
+function updateServerTable() { 
   serverTbody.innerHTML = '';
 
   for (let key in allServers) {
